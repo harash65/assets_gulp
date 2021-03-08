@@ -1,0 +1,15 @@
+@media #{$pc}{
+  section#fv {
+    @include flex-center-center();
+    height: 100vh;
+    min-height: 700px;
+  }
+}
+@media #{$mobile}{
+  section#fv {
+    @include flex-center-center();
+    height: 100vh;
+    min-height: 300px;
+    max-height: 812px;
+  }
+}

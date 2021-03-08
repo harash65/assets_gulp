@@ -1,0 +1,34 @@
+/*===========================
+  BR
+===========================*/
+@media #{$pc}{
+  br.mobile { display: none !important; }
+  br.sp { display: none !important; }
+  br.n_sp { display: none !important; }
+}
+@media #{$mobile}{
+  br.pc { display: none !important; }
+}
+@media #{$sp}{
+  br.sp { display: inline; }
+}
+@media #{$mobile}{
+  br.n_sp { display: inline; }
+}
+/*===========================
+  Img
+===========================*/
+@media #{$pc}{
+  img.mobile { display: none !important; }
+  img.sp { display: none !important; }
+  img.n_sp { display: none !important; }
+}
+@media #{$mobile}{
+  img.pc { display: none !important; }
+}
+@media #{$sp}{
+  img.sp { display: inline; }
+}
+@media #{$mobile}{
+  img.n_sp { display: inline; }
+}

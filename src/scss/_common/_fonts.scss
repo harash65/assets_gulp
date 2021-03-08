@@ -1,0 +1,12 @@
+body,
+body a {
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "游ゴシック", YuGothic, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif, serif;
+  font-size: 16px;
+  line-height: 1.4;
+  letter-spacing: 0em;
+  color: $black;
+}
+@mixin bold() {
+  font-family: "ヒラギノ角ゴ Pro W6", "Hiragino Kaku Gothic Pro", "游ゴシック", YuGothic, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif, serif;
+  font-weight: bold;
+}

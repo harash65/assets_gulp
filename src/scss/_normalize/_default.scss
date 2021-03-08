@@ -1,0 +1,112 @@
+/*===========================
+  All
+===========================*/
+*, *::before, *::after {
+  box-sizing: border-box;
+  position: relative;
+}
+/*===========================
+  Anchor
+===========================*/
+a {
+  text-decoration: none;
+}
+.linkBtn {
+  color: #fff;
+	background-color: rgb(27, 68, 248);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  -webkit-appearance: none;
+  padding: 2px 10px;
+  display: inline-block;
+}
+/*
+<div class="aWrapper">
+  <a href="" class="linkBtn">リンク</a>
+</div>
+*/
+/*===========================
+  Figure
+===========================*/
+figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin: 0 auto;
+  img {
+    width: 100%;
+    height: 100%;
+  vertical-align: bottom;
+  }
+}
+/*===========================
+  Video
+===========================*/
+.videoWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin: 0 auto;
+}
+header video,
+main video,
+footer video {
+  width: 100%;
+  height: auto;
+}
+/*
+// 自動再生（操作なし）
+<div class="videoWrapper">
+  <video src="" autoplay muted loop></video>
+</div>
+// 操作あり
+<div class="videoWrapper">
+  <video src="" autoplay loop controls></video>
+</div>
+*/
+/*===========================
+  Table
+===========================*/
+table {
+  border-collapse: collapse;
+}
+/*===========================
+  Canvas
+===========================*/
+canvas {
+  vertical-align: bottom;
+}
+/*===========================
+  Source code
+===========================*/
+pre, code {
+  text-align: left;
+}
+code ol.linenums {
+  list-style: inside;
+}
+code ol.linenums li {
+  list-style-type: decimal-leading-zero;
+}
+pre {
+  border-top: 2px solid rgb(238, 238, 238);
+  border-top-style: inset;
+  border-right: 2px solid rgb(238, 238, 238);
+  border-bottom: 2px solid rgb(238, 238, 238);
+  border-left: 2px solid rgb(238, 238, 238);
+  border-left-style: inset;
+  padding: 5px;
+}
+pre:not(:first-child) {
+  margin-top: 30px;
+}
+/*
+<pre><code class="prettyprint linenums">
+<script type="text/plain">
+  <div></div>
+</script>
+</code></pre>
+*/

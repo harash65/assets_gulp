@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title><%=gFunc.echo(meta.title)%></title>
+  <!-- Page info -->
+  <meta name="keywords" content="<%=gFunc.echo(meta.keywords)%>">
+  <meta name="description" content="<%=gFunc.echo(meta.description)%>">
+  <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
+  <!-- Responsive -->
+  <meta name='viewport' content='initial-scale=1, viewport-fit=cover'>
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <!-- CSS -->
+  <link rel="stylesheet" href="./assets/css/common.css">
+  <!-- JS -->
+  <script defer src="./assets/js/common.js"></script>
+</head>
+
+<body id="<%=gFunc.echo(meta.page)%>">
+  <!-- No script -->
+  <noscript>
+    コンテンツ内にJavaScriptを使用しているコンテンツがあります。<br>
+    ご利用のブラウザでJavaScriptの機能を無効にされている場合は、<br>
+    一部のコンテンツが正しく表示されない、もしくは正しく機能しないことがあります。<br>
+    ブラウザの設定でJavaScriptを有効にしてください。
+  </noscript>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <!-- Logo -->
+      <h1><a href="#">
+        <img src="./assets/images/logo.png" alt="Logo">
+      </a></h1>
+      <nav>
+        <div class="navInner">
+          <ul class="anchors">
+            <li><a href="#aboutus">About us</a></li>
+            <li><a href="#works">Works</a></li>
+            <li><a href="#news">News</a></li>
+          </ul>
+        </div>
+        <div class="navBtn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+  </header>

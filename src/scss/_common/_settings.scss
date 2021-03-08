@@ -1,0 +1,24 @@
+$pc: "only screen and (min-width:769px)";
+$n_pc: "only screen and (min-width:769px) and (max-width:1200px)";
+$mobile: "only screen and (max-width:768px)";
+$sp: "only screen and (max-width:414px)";
+$n_sp: "only screen and (max-width:374px)";
+//===========================
+//  Size
+//===========================
+$headerH1: 50px;
+$headerH2: 30px;
+$bodyMinW_pc: 1400px;
+$containerW_pc: 1366px;
+$bodyMinW_mobile: 320px;
+$containerW_mobile: 89%;
+//===========================
+//  Color
+//===========================
+$white: #FFF;
+$black: #000;
+$gray: #707070;
+//===========================
+//  Hack
+//===========================
+$ie: "_:-ms-fullscreen, :root";

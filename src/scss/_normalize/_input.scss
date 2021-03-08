@@ -1,0 +1,38 @@
+/*===========================
+  Form
+===========================*/
+/* Form */
+form {
+  width: 100%;
+  margin: 0 auto;
+}
+label {
+  display: inline-block;
+}
+input,
+select,
+button {
+  font-size: 1em;
+  -webkit-appearance: none;
+  display: inline-block;
+}
+select::-ms-expand {
+  display: none;
+}
+button {
+  font-size: 1em;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+input[type="text"],
+input[type="num"],
+textarea {
+  border-top: 2px solid rgb(238, 238, 238);
+  border-top-style: inset;
+  border-right: 2px solid rgb(238, 238, 238);
+  border-bottom: 2px solid rgb(238, 238, 238);
+  border-left: 2px solid rgb(238, 238, 238);
+  border-left-style: inset;
+  vertical-align: bottom;
+}

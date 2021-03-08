@@ -1,0 +1,18 @@
+@media #{$pc}{
+  body {
+    min-width: $bodyMinW_pc;
+    .container {
+      width: $containerW_pc;
+      margin: 0 auto;
+    }
+  }
+}
+@media #{$mobile}{
+  body {
+    min-width: $bodyMinW_mobile;
+    .container {
+      width: $containerW_mobile;
+      margin: 0 auto;
+    }
+  }
+}

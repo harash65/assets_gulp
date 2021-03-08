@@ -1,0 +1,29 @@
+<%/*=======================
+  Initialization
+=======================*/%>
+<%
+const root = './';
+const sections = root + './_sections/';
+include(root + './_common/_functions');
+const meta = {
+  page:'top',
+  title:'トップページ',
+  keywords:'',
+  description:'',
+}
+const files = {
+  css: false,
+  js: false,
+}
+%>
+<%/* Header */%>
+<%- include(sections + '_header', { meta: meta, files: files }) %>
+<%/* Main */%>
+  <!-- Main -->
+  <main>
+    <article>
+      <%- include(sections + '_fv') %>
+    </article>
+  </main>
+<%/* Footer */%>
+<%- include(sections + '_footer', { meta: meta, files: files }) %>
