@@ -99,12 +99,18 @@ gulp.task('build-server', function (done) {
     browserSync.init({
       proxy: "http://localhost:8888/",
       reloadOnRestart: true,
+      startPath: dist + '/',
+      open: 'external',
+      notify: false
     });
   } else {
     browserSync.init({
         server: {
             baseDir: dist
-        }
+        },
+        startPath: dist + '/',
+        open: 'external',
+        notify: false
     });
   }
   done();
